@@ -1,0 +1,65 @@
+.audioplayer{
+    
+    
+    align-items:center;
+    display: flex;
+    width: 200px;
+}
+
+.forwardBackward{
+    background:none;
+    border: none;
+    display:flex;
+    align-items:center;
+    font-family:monospace;
+    font-size: 75px;
+    cursor: pointer;
+}
+
+.forwardBackward:hover{
+ color: deeppink;
+}
+
+.PlayPause{
+    background:deeppink;
+    border: none;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+    color:yellow;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Play{
+    position: relative;
+    left: 3px;
+
+}
+.currentTime,
+.duration{
+    font-family: monospace;
+    font-size: 16px;
+}
+.currentTime{
+    margin: left 25px;;
+}
+
+.progressBar{
+    --bar-bg:rgba(226, 120, 21, 0.315);
+    --seek-before-width:0;
+    --seek-before-color:rgb(214, 147, 22);
+    --knobby:rgb(16, 103, 233);
+    --selected-knobby:rgb(73, 231, 112);
+
+    appearance: none;
+    background: var(--bar-bg);
+    border-radius: 10px;
+    position: relative;
+    width: 100px;
+    height: 11px;
+    outline: none;
+
+}
