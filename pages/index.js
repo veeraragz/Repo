@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Audioplayer</title>
+        <title>openMusic</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Image
